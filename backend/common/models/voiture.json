@@ -1,0 +1,65 @@
+{
+  "name": "voiture",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "nom": {
+      "type": "string",
+      "required": true
+    },
+    "prix": {
+      "type": "number",
+      "required": true
+    },
+    "km": {
+      "type": "string"
+    },
+    "user_numero": {
+      "type": "string",
+      "required": true
+    },
+    "user_id": {
+      "type": "number",
+      "required": true
+    },
+    "etat": {
+      "type": "string"
+    },
+    "serie": {
+      "type": "string"
+    },
+    "cylindre": {
+      "type": "number"
+    },
+    "description": {
+      "type": "string"
+    },
+    "image1": {
+      "type": "string",
+      "required": true
+    },
+    "image2": {
+      "type": "string"
+    },
+    "image3": {
+      "type": "string",
+      "required": true
+    },
+    "image4": {
+      "type": "string"
+    },
+    "image5": {
+      "type": "string"
+    },
+    "image6": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
